@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/first_image"
+        android:src = "@drawable/kitten"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/second_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/puppy" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click the image to switch"
+        android:layout_gravity="center_horizontal|bottom"
+        android:padding="5dip"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="#333333"
+        android:layout_marginBottom="10dip" />
+
+</FrameLayout>
